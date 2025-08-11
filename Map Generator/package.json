@@ -1,0 +1,13 @@
+{
+  "name": "fantasy-map-generator-gpu",
+  "version": "1.0.0",
+  "description": "A desktop wrapper around Azgaar's Fantasy Map Generator with support for very large maps using GPU acceleration.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^26.2.1",
+    "gpu.js": "^2.10.0"
+  }
+}
